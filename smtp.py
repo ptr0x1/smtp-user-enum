@@ -4,7 +4,7 @@ import sys
 import telnetlib
 
 parser=argparse.ArgumentParser(description='Verify usernames through SMTP RCPT commands')
-parser.add_argument('-a', help="specify target host address", dest="host")
+parser.add_argument('-h', help="specify target host address", dest="host")
 parser.add_argument('-p', help="specify port (default is 25)", dest="port")
 parser.add_argument('-U', help="list of possible usernames", dest="users_file")
 parser.add_argument('-v', help="enable verbosity",
