@@ -69,4 +69,3 @@ if (args.output is not None):
 			if "250" in x:		
 				f.write(x)
 				f.write('\n')
-print "created by Saint"
